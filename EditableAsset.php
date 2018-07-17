@@ -6,7 +6,7 @@
  * Time: 08:17
  */
 
-namespace app\components\widgets\cominit\editable;
+namespace cominit\editable;
 
 use yii\web\AssetBundle;
 

@@ -5,7 +5,7 @@
  * Date: 7/17/18
  * Time: 2:06 PM
  */
-namespace app\components\widgets\cominit\editable;
+namespace cominit\editable;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
