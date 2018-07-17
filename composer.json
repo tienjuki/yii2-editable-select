@@ -5,7 +5,7 @@
   "keywords": ["yii2","extension","dropDownList","editable"],
   "license": "MIT",
   "require": {
-    "yiisoft/yii2": "*",
+    "yiisoft/yii2": "*"
   },
   "autoload": {
     "psr-4": {
