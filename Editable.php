@@ -13,7 +13,7 @@ use yii\widgets\InputWidget;
 
 class Editable extends InputWidget
 {
-    public $data = [];
+    public $data;
 
     public function run()
     {
