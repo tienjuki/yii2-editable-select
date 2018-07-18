@@ -27,8 +27,6 @@ class Editable extends InputWidget
     }
 
     protected function getClientOption(){
-        $id = Html::getInputId($this->model,$this->attribute);
-
         return Json::encode($this->data);
     }
 
