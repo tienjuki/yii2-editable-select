@@ -20,8 +20,8 @@ class Editable extends InputWidget
         parent::run();
         $view = $this->getView();
         EditableAsset::register($view);
-        echo Html::activeTextInput($this->model, $this->attribute,['class' => 'form-control']);
-        $id = Html::getInputId($this->model,$this->attribute);
+        echo Html::activeTextInput($this->model, $this->attribute,$this->options);
+        $id = Html::getInputId($this->model,$this->attribute,$this->options);
         $data = $this->getClientOption();
         $view->registerJs("$('#$id').editable({filter: false,data:$data})");
     }
